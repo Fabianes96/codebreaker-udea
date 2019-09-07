@@ -26,7 +26,7 @@ describe('CodeBreaker', function() {
   });
 
   it('should return XX if 7534 is sended', function() {
-    let result = CodeBreaker.guess(7534);
+    let result = CodeBreaker.guess(753);
     assert.equal('XX',result);
   });
 
